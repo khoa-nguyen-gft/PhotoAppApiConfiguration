@@ -1,6 +1,9 @@
 token.expiration: 364000012
 token.secret: j3F##@F$@@FSFEGRETE########12345
 
+api-gateway.ip: 169.254.58.236
+
 
 albums: 
     getAllAlbumsByUserId: "http://ALBUMS-WS/users/%s/albums"
+

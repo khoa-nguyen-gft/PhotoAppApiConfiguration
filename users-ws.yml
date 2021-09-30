@@ -1,0 +1,11 @@
+app.config.security-url: users/login
+
+
+
+#Mysql: this config move to config server
+spring.jpa.database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+spring.datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/db
+    username: user
+    password: root
