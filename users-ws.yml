@@ -13,5 +13,5 @@ spring.datasource:
 
 albums:
     getAllAlbumsByUserId: "http://ALBUMS-WS/users/%s/albums"
-    expiration:
+    exceptions:
         albums-not-found: "Users albums are not found."
